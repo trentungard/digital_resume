@@ -1,0 +1,101 @@
+body{
+    background-color: #fdfff9;
+}
+main{
+    background-color: #fdfff9;
+    margin: 0% 12% 5% 12%;
+    .about{
+        padding: 1% 1% 1% 1%;
+        font-size: 1.2em;
+        text-indent: 5%;
+        border-bottom: dashed 2px #723e3d;
+        color: rgba(50, 50, 50, 0.8);
+    }
+    .skills{
+        margin-bottom: 5%;
+        h3{
+            font-size: 1.3em;
+            font-weight: 800;
+        }
+        h4{
+            margin-left: 2%;
+            font-size: 1em;
+            font-weight: normal;
+            border-bottom: #4c7ec9 solid 2px;
+            display: inline;
+        }
+        ul{
+            font-size: 1.4em;
+            li{
+                display: inline;
+            }
+        }
+    }
+    .experience{
+        margin-bottom: 5%;
+        div{
+            padding: 0 0 0 2%;
+        }
+        h3{
+            font-size: 1.3em;
+            font-weight: 800;
+        }
+        h4{
+            margin-left: 0%;
+            font-size: 1em;
+            font-weight: normal;
+            border-bottom: #4c7ec9 solid 2px;
+            display: inline;
+        }
+        p{
+            margin-left: 2%;
+            text-indent: 5%;
+            color: rgba(50, 50, 50, 0.8);
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+        a:visited{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: #723e3d;
+            border-radius: 5px;
+            color: #fdfff9;
+        }
+        a:active{
+
+        }
+    }
+
+    .card{
+        border-radius: 5px;
+        color: #fdfff9;
+        display: inline;
+        background-color: #4c7ec9;
+        font-size: .8em;
+        padding: .5% .5% .5% .5%;
+    }
+    
+    .kinda-card{
+        border-radius: 5px;
+        color: rgba(50, 50, 50, 0.8);
+        display: inline;
+        font-size: .75em;
+        padding: .5% .5% .5% .5%;
+
+    }
+    .why{
+        p{
+        text-indent: 5%;
+        color: rgba(50, 50, 50, 0.8);
+        }
+    }
+    .thanks{
+        margin-top: 5%;
+        text-align: center;
+        color: rgba(50, 50, 50, 0.8);
+    }
+}
