@@ -184,6 +184,49 @@ main .why p {
   color: rgba(50, 50, 50, 0.8);
 }
 
+main .contact {
+  margin-bottom: 5%;
+}
+
+main .contact div {
+  padding: 0 0 0 2%;
+}
+
+main .contact h3 {
+  font-size: 1.3em;
+  font-weight: 800;
+}
+
+main .contact h4 {
+  margin-left: 0%;
+  font-size: 1em;
+  font-weight: normal;
+  border-bottom: #4c7ec9 solid 2px;
+  display: inline;
+}
+
+main .contact p {
+  margin-left: 2%;
+  text-indent: 5%;
+  color: rgba(50, 50, 50, 0.8);
+}
+
+main .contact a:link {
+  color: black;
+  text-decoration: none;
+}
+
+main .contact a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+main .contact a:hover {
+  background-color: #723e3d;
+  border-radius: 5px;
+  color: #fdfff9;
+}
+
 main .thanks {
   margin-top: 5%;
   text-align: center;
