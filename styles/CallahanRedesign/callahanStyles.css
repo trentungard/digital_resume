@@ -777,17 +777,7 @@ h1 {
   }
   
   /*Does work on large displays*/
-  @media (min-width: 1910px) {
-    .main-body {
-      background-color: #efefef;
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-bottom: 0%;
-      width: 80%;
-      font-size: 1em;
-      margin-top: 3%;
-    }
-  }
+
   /*# sourceMappingURL=style.css.map */
 
 
