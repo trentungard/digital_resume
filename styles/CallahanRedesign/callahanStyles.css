@@ -154,12 +154,14 @@ h1 {
   
   * {
     overflow-x: none;
+
   }
   
   .main-body {
     margin-bottom: 0%;
     width: 100%;
     margin-top: 0%;
+    overflow-y: hidden;
   }
   
   .main-body .about-wrapper {
@@ -214,6 +216,7 @@ h1 {
     padding: 5% 5% 5% 5%;
     z-index: -1;
     position: relative;
+    overflow: hidden;
   }
   
   .main-body .practice-wrapper .practice-head {
@@ -225,6 +228,7 @@ h1 {
         grid-column-start: 3;
     grid-column-end: 4;
     margin-left: 5%;
+    overflow: hidden;
   }
   
   .main-body .practice-list {
@@ -238,6 +242,7 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     margin-left: 25%;
+    overflow: hidden;
   }
   
   .main-body .practice-list img {
@@ -249,6 +254,8 @@ h1 {
   .main-body .practice-list ul {
     padding-left: 0;
     text-align: center;
+    height: 350px;
+    overflow: hidden;
   }
   
   .main-body .practice-list ul li {
@@ -271,8 +278,8 @@ h1 {
     padding-left: 2%;
     padding-right: 2%;
     text-indent: 5%;
-    font-size: 1.5em;
-    height: 500px;
+    font-size: 1.4em;
+    height: 350px;
   }
   
   .main-body .practice-emblems img {
