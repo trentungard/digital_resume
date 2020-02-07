@@ -1,3 +1,7 @@
+*{
+  overflow-x: hidden;
+}
+
 h1 {
   font-size: 1.9em;
 }
@@ -573,11 +577,6 @@ header .header .nav-part-2 {
 
 .main-body .contact-wrapper br {
   display: none;
-}
-
-* {
-  overflow-x: hidden;
-  border: 1px solid red;
 }
 
 h2 {
