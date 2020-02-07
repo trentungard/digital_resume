@@ -1,3 +1,7 @@
+* {
+  overflow-x: none;
+}
+
 h1 {
   font-size: 1.9em;
 }
@@ -153,10 +157,6 @@ header .header .nav-part-2 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-}
-
-* {
-  overflow-x: none;
 }
 
 .main-body {
@@ -588,11 +588,6 @@ footer {
 .disclaimer {
   margin-left: 5%;
   margin-right: 5%;
-}
-
-* {
-  overflow-x: hidden;
-  border: 1px solid red;
 }
 
 h2 {
