@@ -87,6 +87,29 @@ main{
         padding: .5% .5% .5% .5%;
 
     }
+    .work{
+        ul{
+            li{
+                padding-top: 5px;
+                a:link{
+                    color: #4c7ec9;
+                    text-decoration: underline;
+                    
+                }
+                a:visited{
+                    color: #723e3d;
+                }
+                a:hover{
+                    background-color: #723e3d;
+                    border-radius: 5px;
+                    color: #fdfff9;
+                }
+                a:active{
+        
+                }
+            }
+        }
+    }
     .why{
         p{
         text-indent: 5%;

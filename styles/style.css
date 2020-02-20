@@ -179,6 +179,25 @@ main .kinda-card {
   padding: .5% .5% .5% .5%;
 }
 
+main .work ul li {
+  padding-top: 5px;
+}
+
+main .work ul li a:link {
+  color: #4c7ec9;
+  text-decoration: underline;
+}
+
+main .work ul li a:visited {
+  color: #723e3d;
+}
+
+main .work ul li a:hover {
+  background-color: #723e3d;
+  border-radius: 5px;
+  color: #fdfff9;
+}
+
 main .why p {
   text-indent: 5%;
   color: rgba(50, 50, 50, 0.8);
