@@ -4,7 +4,7 @@ h1 {
 
 header {
   width: 100%;
-  background-image: url(../../html/callahan1img/bwoffice.jpg);
+  background-image: url(/html/callahan1img/bwoffice.jpg);
   background-size: 110% 150%;
   overflow: hidden;
   height: 350px;
@@ -583,11 +583,400 @@ footer {
   border-top: #dce0e5 2px solid;
   margin-bottom: 0;
   padding-bottom: 0;
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+
+footer a:link {
+  color: white;
+}
+
+footer a:visited {
+  color: #91deff;
+}
+
+footer a:hover {
+  color: #6977aa;
+}
+
+footer a:active {
+  color: #3d4359;
 }
 
 .disclaimer {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+@media (max-width: 1260px) {
+  h1 {
+    font-size: 1.3em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  header {
+    height: 95%;
+  }
+  header .header {
+    height: 95%;
+  }
+  header .header .nav-part-1 p {
+    margin-top: 1%;
+  }
+  header .header .nav-part-2 img {
+    width: 65%;
+    height: 65%;
+    margin-top: -10%;
+  }
+  .main-body .practice-wrapper {
+    font-size: 1em;
+    height: 400px;
+  }
+  .main-body .about-body p {
+    font-size: .8em;
+  }
+  .main-body .team .team-head h2 {
+    font-size: 1.7em;
+  }
+  .main-body .team .team-body .team-card {
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card h3 {
+    font-size: 1.6em;
+  }
+  .main-body .team .team-body .team-card h4 {
+    font-size: 1.6em;
+  }
+  .main-body .team .team-body .team-card img {
+    height: 150px;
+    width: 150px;
+  }
+  .main-body .team .team-body .team-card .contact-button {
+    padding: 1% 1% 1% 1%;
+    margin: -8% 0 0% 0;
+    height: 20px;
+  }
+  .main-body .team .team-body .team-card-middle {
+    height: 400px;
+  }
+  .main-body .team .team-body .team-card-middle h3 {
+    font-size: 1.6em;
+  }
+  .main-body .team .team-body .team-card-middle h4 {
+    font-size: 1.6em;
+  }
+  .main-body .team .team-body .team-card-middle img {
+    height: 150px;
+    width: 150px;
+  }
+  .main-body .team .team-body .team-card-middle .contact-button {
+    padding: 1% 1% 1% 1%;
+    margin: -8% 0 0% 0;
+    height: 20px;
+  }
+  .main-body .contact-wrapper {
+    font-size: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1185px) {
+  header .header .nav-bar-container {
+    font-size: 1.2em;
+    padding-top: 2%;
+  }
+  header .header .nav-bar-container ul {
+    padding-left: 1%;
+    padding-right: 0;
+  }
+  header .header .nav-bar-container ul li {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 879px) {
+  header .header .nav-bar-container {
+    font-size: 1em;
+    padding-top: 2%;
+  }
+  header .header .nav-bar-container ul {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header .header .nav-bar-container ul li {
+    margin-left: 0;
+  }
+  header .header .nav-part-2 img {
+    width: 55%;
+    height: 55%;
+    margin-top: -10%;
+    margin-right: 25%;
+  }
+  .main-body .practice-wrapper {
+    height: 550px;
+    -ms-grid-columns: 40% 60%;
+        grid-template-columns: 40% 60%;
+  }
+  .main-body .team .team-head h2 {
+    font-size: 1.7em;
+  }
+  .main-body .team .team-body .team-card {
+    height: 350px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+  .main-body .team .team-body .team-card h4 {
+    margin-top: -5%;
+    font-size: 1.5em;
+  }
+  .main-body .team .team-body .team-card img {
+    height: 120px;
+    width: 120px;
+  }
+  .main-body .team .team-body .team-card .contact-button {
+    padding: 1% 1% 1% 1%;
+    margin: -22% 0 0% 0;
+    height: 20px;
+  }
+  .main-body .team .team-body .team-card p {
+    margin-top: -12%;
+  }
+  .main-body .team .team-body .team-card-middle {
+    height: 350px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card-middle h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+  .main-body .team .team-body .team-card-middle h4 {
+    margin-top: -5%;
+    font-size: 1.5em;
+  }
+  .main-body .team .team-body .team-card-middle img {
+    height: 120px;
+    width: 120px;
+  }
+  .main-body .team .team-body .team-card-middle .contact-button {
+    padding: 1% 1% 1% 1%;
+    margin: -22% 0 0% 0;
+    height: 20px;
+  }
+  .main-body .team .team-body .team-card-middle p {
+    margin-top: -12%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.1em;
+  }
+  h2 {
+    font-size: .85em;
+  }
+  header {
+    height: 80%;
+  }
+  header .header {
+    height: 80%;
+  }
+  header .header .nav-bar-container {
+    font-size: .8em;
+    padding-top: 2%;
+  }
+  header .header .nav-part-1 p {
+    margin-top: 1%;
+  }
+  header .header .nav-part-2 img {
+    width: 53%;
+    height: 53%;
+    margin-right: 40%;
+  }
+  .main-body .about-wrapper {
+    width: 85%;
+  }
+  .main-body .about-wrapper .about-body {
+    font-size: .8em;
+  }
+  .main-body .practice-wrapper {
+    height: 400px;
+    -ms-grid-columns: 40% 60%;
+        grid-template-columns: 40% 60%;
+  }
+  .main-body .practice-wrapper .practice-body {
+    font-size: 1.4em;
+  }
+  .main-body .practice-wrapper .practice-list {
+    font-size: .8em;
+  }
+  .main-body .team .team-head h2 {
+    font-size: 1.5em;
+  }
+  .main-body .team .team-body .team-card {
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card h3 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card h4 {
+    margin-top: -5%;
+    font-size: 1.3em;
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card .contact-button {
+    padding: 1% 1% 1% 1%;
+    margin: -25% 0 0% 0;
+    height: 20px;
+  }
+  .main-body .team .team-body .team-card p {
+    margin-top: -19%;
+  }
+  .main-body .team .team-body .team-card-middle {
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card-middle h3 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card-middle h4 {
+    margin-top: -5%;
+    font-size: 1.3em;
+    margin-left: 5%;
+  }
+  .main-body .team .team-body .team-card-middle .contact-button {
+    padding: 1% 1% 1% 1%;
+    margin: -25% 0 0% 0;
+    height: 20px;
+  }
+  .main-body .team .team-body .team-card-middle p {
+    margin-top: -19%;
+  }
+  .main-body .contact-wrapper {
+    padding-bottom: 8%;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 580px) {
+  h1 {
+    font-size: .9em;
+    margin-top: 30px;
+  }
+  h2 {
+    font-size: .65em;
+  }
+  header {
+    height: 250px;
+  }
+  header .header {
+    height: 250px;
+  }
+  header .header .nav-bar-container {
+    font-size: .75em;
+    padding-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+  }
+  header .header .nav-part-1 p {
+    margin-top: 3%;
+    font-size: .6em;
+  }
+  header .header .nav-part-2 img {
+    width: 50%;
+    height: 50%;
+    margin-right: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: .8em;
+    margin-top: 30px;
+  }
+  h2 {
+    font-size: .65em;
+  }
+  header {
+    height: 250px;
+  }
+  header .header {
+    height: 250px;
+    -ms-grid-columns: 65% 35%;
+        grid-template-columns: 65% 35%;
+  }
+  header .header .nav-bar-container {
+    font-size: .65em;
+    padding-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+  }
+  header .header .nav-part-1 {
+    margin-left: 10%;
+    width: 80%;
+  }
+  header .header .nav-part-1 p {
+    margin-top: 3%;
+    font-size: .6em;
+  }
+  header .header .nav-part-2 {
+    text-align: left;
+    margin-left: 0;
+  }
+  header .header .nav-part-2 img {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: .9em;
+    margin-top: 30px;
+  }
+  h2 {
+    font-size: .65em;
+  }
+  header .header .nav-bar-container {
+    font-size: .6em;
+    padding-top: 2%;
+    width: 100%;
+    margin-left: 0%;
+    text-align: left;
+  }
+  header .header .nav-bar-container ul {
+    margin-left: 2%;
+    padding-left: 0;
+  }
+  header .header .nav-bar-container ul li {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  header .header .nav-bar-container ul li a {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  header .header .nav-part-1 p {
+    margin-top: 3%;
+    font-size: .6em;
+  }
+  header .header .nav-part-2 img {
+    width: 50%;
+    height: 50%;
+    margin-right: 60%;
+  }
 }
 
 h2 {
