@@ -10,7 +10,7 @@
         grid-template-rows: 20% 60% 20%;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-    background-image: url(../../html/modernLandingImg/ModernxLanding.png);
+    background-image: url(../images/ModernxLanding.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -51,7 +51,7 @@
     display: block;
     cursor: pointer;
     padding: 50px 100px 30px 100px;
-    background: url(../../html/modernLandingImg/menu.png) no-repeat center center;
+    background: url(../images/menu.png) no-repeat center center;
     background-size: 50px 50px;
   }
   
@@ -68,7 +68,7 @@
   
   body input:checked + label {
     padding-left: 200%;
-    background: url(../../html/modernLandingImg/cross.png) no-repeat center center;
+    background: url(../images//cross.png) no-repeat center center;
     background-size: 50px 50px;
   }
   

@@ -4,7 +4,7 @@ h1 {
 
 header {
   width: 100%;
-  background-image: url(/html/callahan1img/bwoffice.jpg);
+  background-image: url(../images/bwoffice.jpg);
   background-size: 110% 150%;
   overflow: hidden;
   height: 350px;
